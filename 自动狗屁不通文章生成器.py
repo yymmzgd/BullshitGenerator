@@ -10,7 +10,7 @@ data = readJSON.读JSON文件("data.json")
 后面垫话 = data['after']  # 在名人名言后面弄点废话
 废话 = data['bosh'] # 代表文章主要废话来源
 
-xx = "学生会退会"
+xx = "新冠肺炎对经济影响"
 
 重复度 = 2
 
@@ -42,7 +42,7 @@ if __name__ == "__main__":
     xx = input("请输入文章主题:")
     for x in xx:
         tmp = str()
-        while ( len(tmp) < 6000 ) :
+        while ( len(tmp) < 500 ) :
             分支 = random.randint(0,100)
             if 分支 < 5:
                 tmp += 另起一段()
